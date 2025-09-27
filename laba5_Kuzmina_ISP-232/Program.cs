@@ -85,18 +85,64 @@
             //}
             //Console.WriteLine(GetWeather());
 
-            int Factorial(int n)
-            {
-                if (n == 1) return 1;
-                return n * Factorial(n - 1);
-            }
-            int factorial = Factorial(n: 4);
-            int factorial2 = Factorial(n: 5);
-            int factorial3 = Factorial(n: 6);
-            Console.WriteLine(factorial);
-            Console.WriteLine(factorial2);
-            Console.WriteLine(factorial3); 
-            asdasdasd
+            //int Factorial(int n)
+            //{
+            //    if (n == 1) return 1;
+            //    return n * Factorial(n - 1);
+            //}
+            //int factorial = Factorial(n: 4);
+            //int factorial2 = Factorial(n: 5);
+            //int factorial3 = Factorial(n: 6);
+            //Console.WriteLine(factorial);
+            //Console.WriteLine(factorial2);
+            //Console.WriteLine(factorial3); 
+            //void Compare(int[] numbers1, int[] numbers2)
+            //{
+            //    int numbers1Sum = Sum(numbers1);
+            //    int numbers2Sum = Sum(numbers2);
+            //    if (numbers1Sum > numbers2Sum)
+            //        Console.WriteLine("сумма числе из массива numbers1 больше");
+            //    else if (numbers1Sum < numbers2Sum)
+            //        Console.WriteLine("сумма числе из массива numbers2 больше");
+            //    else
+            //        Console.WriteLine("суммы чисел обоих массивов равны");
+                
+            //    int Sum(int[] numbers)
+            //    {
+            //        int result = 0;
+            //        foreach (int number in numbers)
+            //            result+= number;
+            //        return result;
+            //    }
+            //}
+            //int[] numbers1 = [1, 2, 3];
+            //int[] numbers2 = [3, 4, 5, 6, 7];
+            //Compare(numbers1, numbers2);
+
+            //int Sum(int[] numbers)
+            //{
+            //    int limit = 0;
+            //    int result = 0;
+            //    foreach (int number in numbers)
+            //    {
+            //        if (IsPassed(number, limit)) result += number;
+
+            //    }
+            //    return result;
+            //    bool IsPassed(int number)
+            //    {
+            //        return number > limit;
+            //    }
+            //}
+            //int[] numbers1 = [-3, -2, -1, 0, 1, 2, 3];
+            //int[] numbers2 = [3, -4, 5, -6, 7];
+            //Console.WriteLine(Sum(numbers1));
+            //Console.WriteLine(Sum(numbers2));
+            //static bool IsPassed(int number, int lim)
+            //{
+            //    return number > lim;
+            //}
+            
 
 
 
